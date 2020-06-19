@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Tic_Tac_Toy_Game.jnlp">
+  <information>
+    <title>Tic_Tac_Toy_Game</title>
+    <vendor>Fr3on</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Tic_Tac_Toy_Game.jar" size="5536" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Tic_Tac_Toy_Game" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="tic_tac_toy_game.Tic_Tac_Toy_Game"  name="Tic_Tac_Toy_Game" />
+  <update check="always"/>
+</jnlp>
